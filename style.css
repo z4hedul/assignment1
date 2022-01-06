@@ -70,30 +70,25 @@ p {
     margin: 50px;
     margin-right: 100px;
 }
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(14, 12, 12);
-    color: rgb(153, 147, 147);
-    text-align: center;
-    font-size: 10px;
- }
- #style
- {
-    font-family: 'Moon Dance', cursive;
-    font-size: 20px;
-    color: whitesmoke;
- }
- #style2
- {
-    font-size: 20px;
-    color: red;
- }
 
+.footer{
+	background: black;
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+	overflow: hidden;
+}
+#style
+{
+    color: red;
+}
+#style2
+{
+    color:white;
+}
  #footer{
      text-align: center;
+     color: grey;
  }
 #imageheight{
     height: 65%;
