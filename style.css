@@ -3,7 +3,6 @@ body {
 }
 .displayset{
     display: flex;
-    float: left;
     margin-bottom: 150px;
 }
 h1 {
@@ -47,10 +46,17 @@ p {
     margin-left: 50px;
     border-radius: 20px;
 }
+.backimage{
+    background-image:url(images/shape-2.png);
+    background-repeat: no-repeat;
+}
 .illutionmission
 {
     width: 30%;
 }
 #position{
     text-align: center;
+}
+#imageheight{
+    height: 60%;
 }
