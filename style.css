@@ -4,9 +4,13 @@ body {
 .displayset{
     display: flex;
     float: left;
+    margin-bottom: 150px;
 }
 h1 {
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
 }
 p {
     text-align: justify;
@@ -15,6 +19,18 @@ p {
 .divstyle{
     width: 50%;
     margin: 30px;
+}
+.missiondiv{
+        width: 33%;
+        margin: 30px;
+        padding: 20px;
+
+}
+.design{
+    background-color: rgba(235, 209, 180, 0.856);
+    transform: scaleY(1);
+    border-radius: 10px;
+    
 }
 .textcolor{
     color: rgb(209, 29, 194);
@@ -30,6 +46,10 @@ p {
     width: 80%;
     margin-left: 50px;
     border-radius: 20px;
+}
+.illutionmission
+{
+    width: 30%;
 }
 #position{
     text-align: center;
