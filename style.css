@@ -3,6 +3,7 @@ body {
 }
 .displayset{
     display: flex;
+    float:left;
     margin-bottom: 150px;
 }
 h1 {
@@ -46,17 +47,54 @@ p {
     margin-left: 50px;
     border-radius: 20px;
 }
-.backimage{
+#backimage{
     background-image:url(images/shape-2.png);
     background-repeat: no-repeat;
 }
+#backimage2{
+    background-image:url(images/shape-1.png);
+    background-repeat: no-repeat;
+    }
 .illutionmission
 {
     width: 30%;
 }
-#position{
+.position{
     text-align: center;
 }
+.photo{
+    align-items: center;
+    width:300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 50px;
+    margin-right: 100px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(14, 12, 12);
+    color: rgb(153, 147, 147);
+    text-align: center;
+    font-size: 10px;
+ }
+ #style
+ {
+    font-family: 'Moon Dance', cursive;
+    font-size: 20px;
+    color: whitesmoke;
+ }
+ #style2
+ {
+    font-size: 20px;
+    color: red;
+ }
+
+ #footer{
+     text-align: center;
+ }
 #imageheight{
     height: 65%;
 }
